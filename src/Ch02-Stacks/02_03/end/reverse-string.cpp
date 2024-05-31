@@ -28,10 +28,8 @@ string reverseString(const string &input)
 
 int main()
 {
-    string str = "Hello, World!";
+    string str = "this is a test";
     string revStr = reverseString(str);
-
-    cout << reverseString("Hello, World!") << endl;
 
     cout << "Original String: " << str << endl;
     cout << "Reversed String: " << revStr << endl;
