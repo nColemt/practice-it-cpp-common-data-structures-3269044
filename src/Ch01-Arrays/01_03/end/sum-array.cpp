@@ -24,6 +24,6 @@ int calculateSum(const int arr[], size_t size)
 
 int main()
 {
-    const int ints[] {1, -7, 17};
+    const int ints[] {1, -7, 500};
     cout << "The sum of all elements in the array is " << calculateSum(ints, 3) << endl;
 }
